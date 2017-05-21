@@ -1,0 +1,26 @@
+// actions types
+export const FETCH_MOVIES = 'FETCH_MOVIES'                       // 首页电影
+export const FETCH_MOVIES_LIST = 'FETCH_MOVIES_LIST'             // '更多'电影列表
+export const FETCH_SEARCH_MOVIES = 'FETCH_SEARCH_MOVIES'         // 搜索电影
+export const FETCH_MOVIES_DETAILS = 'FETCH_MOVIES_DETAILS'       // 电影详情信息
+export const FETCH_MOVIES_CELEBRITY = 'FETCH_MOVIES_CELEBRITY'   // 影人信息
+
+// mutstions types
+export const TOGGLE_MOVIES = 'TOGGLE_MOVIES'
+export const TOGGLE_MOVIES_LIST = 'TOGGLE_MOVIES_LIST'
+export const TOGGLE_SEARCH_MOVIES = 'TOGGLE_SEARCH_MOVIES'
+export const TOGGLE_MOVIES_DETAILS = 'TOGGLE_MOVIES_DETAILS'
+export const TOGGLE_MOVIES_CELEBRITY = 'TOGGLE_MOVIES_CELEBRITY'
+
+export const CLEAN_MOVIES = 'CLEAN_MOVIES'
+export const CLEAN_MOVIESDETAILS = 'CLEAN_MOVIESDETAILS'
+
+// getters types
+export const DONE_MOVIES = 'DONE_MOVIES'
+export const DONE_MOVIES_LIST = 'DONE_MOVIES_LIST'
+export const DONE_SEARCH_MOVIES = 'DONE_SEARCH_MOVIES'
+export const DONE_MOVIES_DETAILS = 'DONE_MOVIES_DETAILS'
+export const DONE_MOVIES_CELEBRITY = 'DONE_MOVIES_CELEBRITY'
+
+export const DONE_IS_LOADING = 'DONE_IS_LOADING'
+export const DONE_IS_SHOW = 'DONE_IS_SHOW'
